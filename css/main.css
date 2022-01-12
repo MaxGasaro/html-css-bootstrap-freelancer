@@ -1,8 +1,55 @@
-.height-400px {
-    height: 400px;
+.ms_bg_header {
+    background-color: #2c3e50;
 }
 
-.height-150px {
-    height: 150px;
+.ms_height_navbar {
+    height: 100px;
+}
+
+#jumbotron {
+    margin-top: 100px;
+}
+
+.ms_bg_green {
+    background-color: #1abc9c;
+}
+
+.text_color_white {
+    color: #fff;
+}
+
+.ms_wrapper_60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ms_footer_top {
+    background-color: #3a546d;
+}
+
+.ms_footer_bottom {
+    background-color: #2c3e50;
+}
+
+.bi-star-fill::after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+}
+
+.bi-star-fill::before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
 
