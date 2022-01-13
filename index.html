@@ -12,24 +12,24 @@
 <body>
 
 
-    <header class="ms_bg_header">
+    <header>
 
         <nav class="navbar ms_height_navbar fixed-top navbar-expand-md ms_bg_header text-uppercase">
             <div class="container-md">
-              <a class="navbar-brand fs-2" href="#">START BOOTSTRAP</a>
+              <a class="navbar-brand fs-2 ms_navbar_link" href="#">START BOOTSTRAP</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon ms_navbar_link"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    <a class="nav-link ms_navbar_link"  href="#">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link ms_navbar_link" href="#">ABOUT</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link ms_navbar_link" href="#">
                         CONTACT
                     </a>
                     <!--menu a comparsa attivabile solo inserendo il collegamento dentro il button hamburger-->
@@ -73,21 +73,23 @@
 
     <main>
 
-        <section id="jumbotron" class="ms_bg_green text_color_white py-4 mb-2">
+        <section id="jumbotron" class="ms_bg_green text_color_white py-5 mb-2">
 
             <div class="container text-center">
                 
-                <img src="img/avatar.svg" alt="avatar" class="img-fluid w-50 py-3">
+                <img src="img/avatar.svg" alt="avatar" class="img-fluid w-25 py-3">
                 <h1>START BOOTSTRAP</h1>
-                <div class="position-relative">
+
+                <div class="ms_star_white">
                     <i class="bi bi-star-fill"></i>
                 </div>
+
                 <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
             </div>
 
         </section>
 
-        <section id="portfolio" class="my-5">
+        <section id="portfolio" class="my-5 py-4">
 
             <div class="container">
 
@@ -102,6 +104,9 @@
                 <div class="row">
 
                     <div class="col-12 text-center">
+                        <div class="ms_star_black">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
                     </div>
 
                 </div>
@@ -109,27 +114,57 @@
                 <div class="row g-4">
 
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <img src="img/cake.png" alt="" class="img-fluid rounded-3">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <img src="img/circus.png" alt="" class="img-fluid rounded-3">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <img src="img/game.png" alt="" class="img-fluid rounded-3">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <img src="img/safe.png" alt="" class="img-fluid rounded-3">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <img src="img/submarine.png" alt="" class="img-fluid rounded-3">
+                        <div class="ms_portfolio_item">
+                            <div class="ms_layover justify-content-center align-items-center">
+                                <i class="bi bi-plus"></i>
+                            </div>
+                            <img src="img/cabin.png" alt="" class="img-fluid rounded-3">
+                        </div>
                     </div>
 
                 </div>
@@ -152,14 +187,17 @@
                                 <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as well optional LESS stylesheets for easy customization.</p>
                             </div>
                             
-
+                            
                             <div class="col-12 col-sm-6">
                                 <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                             </div>
+                            
+                            <button type="button" class="btn btn-primary mt-4"><i class="bi bi-download pe-2"></i>Download</button>
 
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -174,44 +212,34 @@
 
         </section> -->
 
-        <section id="contact">
+        <section id="contact" class="">
 
-            <div class="container text-center">
+            <div class="container">
 
-                <h2>CONTACT ME</h2>
+                <h2 class="text-center">CONTACT ME</h2>
 
                 <div class="row">
 
                     <div class="col-12">
-                        <div class="row justify-content-center">
-                            <div class="col-6 d-flex justify-content-center">
+                        <form method="get">
+                            
+                            <div class="mb-3">
                                 <input class="border-top-0 border-start-0 border-end-0" type="text" placeholder="Name">
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6 d-flex justify-content-center">
+                        
+                        
+                            <div class="mb-3">
                                 <input class="border-top-0 border-start-0 border-end-0" type="text" placeholder="Email Address">
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6 d-flex justify-content-center">
+
+                            <div class="mb-3">
                                 <input class="border-top-0 border-start-0 border-end-0" type="text" placeholder="Phone Number">
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6 d-flex justify-content-center">
+                            <div class="mb-3">
                                 <input class="border-top-0 border-start-0 border-end-0 pb-5" type="text" placeholder="Message">
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <button type="button" class="btn btn-primary mt-4"><i class="bi bi-download pe-2"></i>Download</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    
+                        </form>
                     </div>
 
                 </div>
@@ -225,7 +253,7 @@
         <div class="ms_footer_top">
             <div class="container">
                 <div class="row text-center text-white">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-md-4">
                         <div>
                             <span>LOCATION</span>
                         </div>
@@ -233,7 +261,7 @@
                             <span>2215 John Daniel Drive Clark, MO 54243</span>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-md-4">
                         <div>
                             <span>AROUND THE WEB</span>
                         </div>
@@ -241,7 +269,7 @@
                             <i class="bi bi-facebook p-2 border rounded-circle mx-2"></i><i class="bi bi-google p-2 border rounded-circle mx-2"></i><i class="bi bi-twitter p-2 border rounded-circle mx-2"></i><i class="bi bi-linkedin p-2 border rounded-circle mx-2"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-md-4">
                         <div>
                             <span>ABOUT FREELANCER</span>
                         </div>
